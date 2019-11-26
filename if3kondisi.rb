@@ -7,7 +7,7 @@ if $0 == __FILE__
 	print "Masukkan c: "
 	c = gets().to_i()
 	
-	determinan = Mah.sqrt(b**2 - (4*a*c))
+	determinan = Math.sqrt(b**2 - (4*a*c))
 	
 	if determinan > 0
 		x1 = (-b + determinan) / (2*a)
