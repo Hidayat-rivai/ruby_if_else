@@ -6,12 +6,12 @@ if $0 == __FILE__
 	print "Masukkan UAS: "
 	uas = gets().to_f()
 	
-	if(uts < 0.0 oro uts > 100.0)
+	if(uts < 0.0 or uts > 100.0)
 		puts "Nilai UTS harus berada dalam rentang 0..100"
 		exit(1)
 	end
 	
-	if(uas < 0.0 oro uas > 100.0)
+	if(uas < 0.0 or uas > 100.0)
 		puts "Nilai UAS harus berada dalam rentang 0..100"
 		exit(1)
 	end
